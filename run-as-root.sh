@@ -99,3 +99,5 @@ printf "\n>>> SERVICE : Create cuckoo web service\n\n"
 
 cp ./services/cuckoo-api.service /etc/systemd/system/cuckoo-api.service
 systemctl enable cuckoo-api.service
+
+sudo apt install python3-pip
