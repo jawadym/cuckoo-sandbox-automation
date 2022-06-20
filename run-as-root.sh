@@ -75,7 +75,7 @@ echo 1 | sudo tee -a /proc/sys/net/ipv4/ip_forward
 sudo sysctl -w net.ipv4.ip_forward=1
 
 printf "\n>>> SERVICE : Create docker-compose service\n\n"
-
+sudo apt install docker-compose
 cp ./docker-compose.yml /start-cuckoo-services.yml
 cp ./services/cuckoo-docker.service /etc/systemd/system/cuckoo-docker.service
 systemctl enable cuckoo-docker.service
