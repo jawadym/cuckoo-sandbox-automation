@@ -33,3 +33,5 @@ printf "\n>>> Settings configurations...\n\n"
 mv ~/.cuckoo/conf/ ~/.cuckoo/conf.old
 cp -R ~/conf ~/.cuckoo/conf
 rm -rf ~/conf
+
+cuckoo community
