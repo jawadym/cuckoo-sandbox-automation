@@ -1,5 +1,4 @@
-# Cuckoo Sandbox Full Automated Installation Script
-
+# Cuckoo Sandbox Deployment Automation
 This repository contains scripts to install cuckoo with required services/packages simply.  
 
 Basic features are:
