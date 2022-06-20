@@ -50,8 +50,8 @@ cp ./services/start-cuckoo.sh /home/cuckoo/start-cuckoo.sh
 chown cuckoo:cuckoo /home/cuckoo/start-cuckoo.sh
 chmod a+x /home/cuckoo/start-cuckoo.sh
 
-cp -R ./conf /home/cuckoo/conf
-chown -R cuckoo:cuckoo /home/cuckoo/conf
+cp -R ./conf /home/cuckoo/.cuckoo/
+chown -R cuckoo:cuckoo /home/cuckoo/.cuckoo/conf
 
 printf "\n>>> INSTALL : Installing and mount win7 image\n\n"
 
